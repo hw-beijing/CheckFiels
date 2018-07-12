@@ -49,7 +49,7 @@ class Application(Frame):  # 从Frame派生出Application类，它是所有widge
         self.operationWinTagLabel.pack()
         self.operationWinTable = Entry(self, textvariable=operationWinVar)  # 创建一个输入框，以输入内容
         self.operationWinTable.pack()
-        operationWinVar.set("MiaoMore3.0")
+        # operationWinVar.set("MiaoMore3.0")
 
         self.nextButton = Button(self, text='下一个', command=self.nextRow)  # 创建一个hello按钮，点击调用hello方法，实现输出
         self.nextButton.pack()
